@@ -275,8 +275,10 @@
                         <form action="https://getform.io/f/8657382b-fb14-4a6f-ba18-3aa6ffd58950" method="POST" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
                             <input type="text" class="form-control" name="name" placeholder="Name">
 
-                            <input type="email" class="form-control" name="email" placeholder="Email">
-
+                           <!-- <input type="email" class="form-control" name="email" placeholder="Email"> -->
+				
+                            <input type="tel" class="form-control" name="phone" placeholder="9134567890" pattern="[0-9]{10}" required>
+				
                             <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
 
                             <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button>
@@ -342,22 +344,22 @@
           </div>
 
           <div class="modal-body">
-            <form class="membership-form webform" role="form">
-                <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
+            <form action="https://getform.io/f/8657382b-fb14-4a6f-ba18-3aa6ffd58950" method="POST" role="form">
+                <input type="text" class="form-control" name="name" placeholder="John Doe">
 
-                <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
+              <!--  <input type="email" class="form-control" name="email" placeholder="Johndoe@gmail.com"> -->
 
-                <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <input type="tel" class="form-control" name="phone" placeholder="9134567890" pattern="[0-9]{10}" required>
 
-                <textarea class="form-control" rows="3" name="cf-message" placeholder="Additional Message"></textarea>
+                <textarea class="form-control" rows="3" name="message" placeholder="Additional Message"></textarea>
 
                 <button type="submit" class="form-control" id="submit-button" name="submit">Submit Button</button>
 
-                <div class="custom-control custom-checkbox">
+               <!-- <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="signup-agree">
                     <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="#">Terms &amp;Conditions</a>
                     </label>
-                </div>
+                </div> -->
             </form>
           </div>
 
